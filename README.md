@@ -4,7 +4,7 @@
 
 1 - Apache
 
-**Rehefa manao déployement angular amin'ny apache ianao dia asio an'ity .htaccess ity ao amin'ny racine mba tsy ho lasa 404**
+**Rehefa manao déployement angular amin'ny apache ianao dia asio an'ity .htaccess ity ao amin'ny racine mba tsy ho lasa 404 rehefa reloadena ilay page**
 
 ```
 <IfModule mod_rewrite.c>
