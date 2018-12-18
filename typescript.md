@@ -39,8 +39,52 @@ Ohatra:
 Class Olona {
   kristianina = 100; 
   constructor(isany : number){
-    
+    this.kristianina = isany;
+  }
+  
+  manisa(fanisana:number) : number {
+    return fanisana;
   }
 }
 
+let izaho = new Olona(1);
+
 ```
+
+Amin'ny maha Class azy dia afaka manao héritage ihany koa ianao amin'ny alalan'ny mots magique extends 
+
+Ohatra: 
+
+```
+class vahoaka extends Olona{
+  /// afaka manisy construncteur ianao amin'ny alalan'ny
+  super(){}
+  ...
+  silamo : isa;
+}
+```
+
+Intérfaces
+
+Ohatra: 
+```
+interfaces olona {
+  mpivavaka : number;
+}
+```
+
+Izany hoe raha atambatra dia :
+
+```
+class vahoaka extends Olona {
+  silamo : isa;
+}
+
+interfaces olona {
+  kristianina : number;
+}
+
+var malagasy : Olona = { silamo : 50 , kristianina : 50 };
+```
+
+
